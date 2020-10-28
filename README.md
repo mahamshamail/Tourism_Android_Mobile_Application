@@ -48,12 +48,12 @@ When a user selects an attraction from the list, the app displays a screen that 
 On this page you can see the following:
 1. name
 2. address,
-3. phone no (Clicking on the phone number automatically opens the phone dialer so the user can attempt to call said place.)
-4. website (Clicking on the website automatically opens a web view showing the attraction web page.)
+3. phone no: Clicking on the phone number automatically opens the phone dialer so the user can attempt to call said place.
+4. website: Clicking on the website automatically opens a web view showing the attraction web page.
 5. more photos
 6. description
 7. pricing 
-8. ratings (Users are able to leave a star rating for the tourist attraction. Implemented using a “Rating Bar” view.)
+8. ratings: Users are able to leave a star rating for the tourist attraction. Implemented using a “Rating Bar” view.
 
 
 GENERAL UI FEATURES:
