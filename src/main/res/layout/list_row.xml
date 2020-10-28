@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_dark"
+    android:layout_height="250dp">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/holo_blue_light"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:src="@mipmap/ic_launcher_round">
+
+    </ImageView>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:text="Main Title"
+            android:textAllCaps="true"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:typeface="monospace"
+        android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:background="@android:color/holo_blue_light"
+            android:id="@+id/main_title">
+
+        </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:text="sub title"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:id="@+id/sub_title">
+
+    </TextView>
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_wish_list"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Your Wish List" />
+        <item
+            android:id="@+id/nav_tour_list"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Tourist Attraction List" />
+        <item
+            android:id="@+id/nav_Map"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_logout_button"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Logout" />
+
+    </group>
+
+
+
+</menu>

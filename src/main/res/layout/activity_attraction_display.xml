@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent" android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="150dp"
+        android:background="@android:color/holo_blue_light"
+        tools:ignore="Suspicious0dp">
+
+        <ImageView
+            android:id="@+id/image_of_attraction"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+
+            android:layout_weight="3"
+            android:src="@mipmap/ic_launcher">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+           >
+
+            <ImageView
+                android:id="@+id/image_of_attraction1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/image_of_attraction2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher">
+
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:textColor="@android:color/white"
+        android:id="@+id/name">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:id="@+id/website_button"
+            android:text="Website">
+
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_to_wish_list"
+           android:layout_marginLeft="10dp"
+            android:paddingRight="9dp"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:text="+ wish list">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: "
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"
+            >
+
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:id="@+id/address">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone: "
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:id="@+id/phone_no">
+
+        </TextView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="-> Dial Number"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:id="@+id/dial">
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pricing: "
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pricing"
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+
+            android:id="@+id/pricing">
+
+        </TextView>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="13sp"
+        android:layout_gravity="fill_horizontal"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/description">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate this tourist attraction:"
+        android:textSize="13sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="fill_horizontal"
+        android:padding="5dp"
+        >
+
+    </TextView>
+    <RatingBar
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:id="@+id/rating"
+        android:background="@android:color/holo_blue_light"
+        android:outlineAmbientShadowColor="@android:color/white"
+        android:outlineSpotShadowColor="@android:color/white"
+        android:numStars="5">
+
+    </RatingBar>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:paddingLeft="9dp"
+        android:paddingRight="9dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:id="@+id/backButton"/>
+
+</LinearLayout>

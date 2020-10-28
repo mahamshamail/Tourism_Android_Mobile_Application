@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="40dp"
+    android:gravity="center_vertical"
+
+    >
+
+
+    <TextView
+        android:id="@+id/WelcomeText"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trip Toronto"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp"
+        android:typeface="monospace"
+        android:padding="10dp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/EnterUsernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Username"
+
+        >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/EnterPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Password                 "
+        android:inputType="textPassword"
+        >
+    </EditText>
+
+
+    <Switch
+        android:id="@+id/RememberMeSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"
+        android:padding="13dp"
+        tools:ignore="UseSwitchCompatOrMaterialXml">
+
+    </Switch>
+
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        tools:ignore="OnClick">
+    </Button>
+
+
+
+
+</LinearLayout>
