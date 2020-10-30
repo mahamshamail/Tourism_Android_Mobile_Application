@@ -1,6 +1,6 @@
 # TOURISM APP (Android Native)
 
-APP DESCRIPTION:
+#### APP DESCRIPTION:
 The app promotes and encourages tourism within the city of Toronto by show casing different tourist spots around the city.
 The App was made using Android Studio, Java and XML. The database consists of five tourist spots and four users.
 
