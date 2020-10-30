@@ -1,6 +1,7 @@
 # TOURISM APP (Android Native)
 
 <img src="images/Screenshot_1604091941.png" width="260" height="500">
+
 #### APP DESCRIPTION:
 The app promotes and encourages tourism within the city of Toronto by show casing different tourist spots around the city.
 The App was made using **Android Studio**, **Java** and **XML**. The database consists of five tourist spots and four users.
@@ -11,10 +12,10 @@ The App was made using **Android Studio**, **Java** and **XML**. The database co
 * Data persisted with **SharedPreferences** and **JSON** files.
 
 #### USER INTERFACE:
-* Provided navigation drawers and toolbars. 
-* Multiple screens implemented using navigation as well as intents. 
-* List views show tourist attractions. 
-* Buttons that naviagte you to **WebViews**.
+* Provided **navigation drawers** and **toolbars**. 
+* **Multiple screens** implemented using navigation as well as intents. 
+* **ListViews** show tourist attractions. 
+* **Buttons** that naviagte you to **WebViews**.
 
 <img src="images/Screenshot_1604091950.png" width="260" height="500">
 
@@ -66,8 +67,11 @@ On this page you can see the following:
 The app has a navigation drawer and the navigation drawer contains the following:-
 * **Your Wish List** - This will naviagte the user to their wish list. If it has no items to show then the screen will say "Your wish list is empty!"
 * **Tourist Attraction List** - This will navigate the user to the Tourist Navigation List.
-* **Map** -  For this screen, a web view is loaded that displays a  bing.com map that is centered to a random location. This was implemented using 
+* **Map** -  For this screen, a web view is loaded that displays a  bing.com map that is centered to a random location. This was implemented using https://www.bing.com/maps.
 * **Logout**  - Clicking this link will logout the user and redirect them back to the Login screen. 
 
+**Made by _Maham Shamail_ with :blue_heart: 
+
+**NOTE** _If you found this app to be useful or if you have any suggestions for me on how I could improve upon it please email me at mahamshamail@gmail.com. I would appreciate it!_
 
 
