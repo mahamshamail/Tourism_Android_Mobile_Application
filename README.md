@@ -70,8 +70,8 @@ The app has a navigation drawer and the navigation drawer contains the following
 * **Map** -  For this screen, a web view is loaded that displays a  bing.com map that is centered to a random location. This was implemented using https://www.bing.com/maps.
 * **Logout**  - Clicking this link will logout the user and redirect them back to the Login screen. 
 
-**Made by _Maham Shamail_ with :blue_heart: 
+**Made by _Maham Shamail_ with :blue_heart: **
 
-**NOTE** _If you found this app to be useful or if you have any suggestions for me on how I could improve upon it please email me at mahamshamail@gmail.com. I would appreciate it!_
+_If you found this app to be useful or if you have any suggestions for me on how I could improve it please email me at **mahamshamail@gmail.com**. I would appreciate it!_
 
 
